@@ -4,12 +4,12 @@
 = Вёрстка таблиц <ch3>
 
 Вставить одиночное изображение можно следующим образом: 
-#figure(
-  image("../images/typst.png", width: 5%),
-  caption: [Typst]
-) <fig:typst>
+// #figure(
+//   image("../images/typst.png", width: 5%),
+//   caption: [Typst]
+// ) <fig:typst>
 
-И сослаться на него: @fig:typst
+// И сослаться на него: @fig:typst
 
 == Таблица обыкновенная <ch3:sect1>
 

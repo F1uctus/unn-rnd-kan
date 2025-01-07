@@ -4,7 +4,7 @@
 #import "@preview/physica:0.9.3": *
 #import "@preview/indenta:0.0.3": fix-indent
 #import "@preview/great-theorems:0.1.1": *
-#import "@preview/rich-counters:0.2.1": *
+#import "@preview/rich-counters:0.2.2": *
 #import "./glossarium.typ": *
 
 #let to-str(content) = {
