@@ -1,18 +1,6 @@
 # Шаблон русской кандидатской диссертации 
 
-Шаблон русской кандидатской диссертации на языке разметки [Typst](https://typst.app/) - современной альтернативы LaTeX.
-
-## Использование
-
-В веб-приложении нажмите "Start from template" и на панели найдите `modern-russian-dissertation`.
-
-Вы также можете инициализировать проект командой:
-
-```bash
-typst init @preview/modern-russian-dissertation
-```
-
-Будет создана новая директория со всеми файлами, необходимыми для начала работы.
+На языке разметки [Typst](https://typst.app/) - современной альтернативы LaTeX.
 
 ## Конфигурация
 
@@ -39,6 +27,8 @@ typst watch thesis.typ
 - Стандарт ГОСТ Р 7.0.11-2011.
 
 ## Благодарности
+
+- Благодарность авторам шаблона диссертации на [Typst](https://github.com/SergeyGorchakov/russian-phd-thesis-template-typst)
 
 - Благодарность авторам шаблона диссертации на [LaTeX](https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template)
 
