@@ -41,10 +41,10 @@
 #include "./parts/conclusion.typ"
 
 // Выходные данные
-= Список сокращений и условных обозначений 
-#import "./common/acronyms.typ": acronyms-entries
-#import "./common/symbols.typ": symbols-entries
-#print-glossary(acronyms-entries + symbols-entries)
+// = Список сокращений и условных обозначений 
+// #import "./common/acronyms.typ": acronyms-entries
+// #import "./common/symbols.typ": symbols-entries
+// #print-glossary(acronyms-entries + symbols-entries)
 
 = Словарь терминов 
 #import "./common/glossary.typ": glossary-entries
@@ -55,11 +55,11 @@
   style: "gost-r-705-2008-numeric"
 )
 
-#show outline: set heading(outlined: true)
+// #show outline: set heading(outlined: true)
 
-#outline(title: "Список рисунков", target: figure.where(kind: image))
+// #outline(title: "Список рисунков", target: figure.where(kind: image))
 
-#outline(title: "Список таблиц", target: figure.where(kind: table))
+// #outline(title: "Список таблиц", target: figure.where(kind: table))
 
 // Приложения 
-#include "./parts/appendix.typ"
+// #include "./parts/appendix.typ"

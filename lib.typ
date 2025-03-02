@@ -300,7 +300,11 @@
 
 #let hl-r(x) = text(fill: red, $#x$)
 #let hl-g(x) = text(fill: rgb("#298E89"), $#x$)
-
+#let half = h(0.5em)
+#let eq-nonum = math.equation.with(
+  block: true,
+  numbering: none,
+)
 
 // Set up the styling of the appendix.
 #let phd-appendix(body) = {
